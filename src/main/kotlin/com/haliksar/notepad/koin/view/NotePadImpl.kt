@@ -1,6 +1,6 @@
 package com.haliksar.notepad.koin.view
 
-import com.haliksar.notepad.dagger.entity.Note
+import com.haliksar.notepad.koin.entity.Note
 import org.koin.core.KoinComponent
 import org.koin.core.inject
 

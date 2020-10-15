@@ -1,8 +1,8 @@
 package com.haliksar.notepad.koin.di
 
-import com.haliksar.notepad.dagger.view.NoteBase
-import com.haliksar.notepad.dagger.view.NotePad2Impl
-import com.haliksar.notepad.dagger.view.NotePadImpl
+import com.haliksar.notepad.koin.view.NoteBase
+import com.haliksar.notepad.koin.view.NotePad2Impl
+import com.haliksar.notepad.koin.view.NotePadImpl
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 

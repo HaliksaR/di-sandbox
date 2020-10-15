@@ -1,9 +1,8 @@
 package com.haliksar.notepad.koin
 
-
-import com.haliksar.notepad.dagger.view.NoteBase
 import com.haliksar.notepad.koin.di.NodePadListModule
 import com.haliksar.notepad.koin.di.NodePadModule
+import com.haliksar.notepad.koin.view.NoteBase
 import org.koin.core.KoinComponent
 import org.koin.core.context.startKoin
 import org.koin.core.inject
