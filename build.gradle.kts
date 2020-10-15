@@ -25,7 +25,12 @@ buildscript {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation(dagger("dagger"))
+    kapt(dagger("dagger-compiler"))
 
     implementation("org.koin:koin-core:2.1.6")
     implementation("org.koin:koin-core-ext:2.1.6")
 }
+
+fun DependencyHandler.dagger(module: String, version: String = "2.29.1"): Any =
+    "com.google.dagger:$module:$version"

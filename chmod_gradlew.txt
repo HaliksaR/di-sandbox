@@ -1,0 +1,2 @@
+git update-index --chmod=+x gradlew.bat
+git update-index --chmod=+x gradlew
