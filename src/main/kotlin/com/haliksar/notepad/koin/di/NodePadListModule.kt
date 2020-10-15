@@ -1,6 +1,6 @@
 package com.haliksar.notepad.koin.di
 
-import com.haliksar.notepad.dagger.entity.Note
+import com.haliksar.notepad.koin.entity.Note
 import org.koin.dsl.module
 
 val NodePadListModule = module {
