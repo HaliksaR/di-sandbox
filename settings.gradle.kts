@@ -1,2 +1,2 @@
-rootProject.name = "dagger"
-
+include("koin-sandbox")
+include("dagger-sandbox")
