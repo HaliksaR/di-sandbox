@@ -1,6 +1,6 @@
-package com.haliksar.sabdbox.dagger.di
+package com.haliksar.sabdbox.dagger.notepad.di
 
-import com.haliksar.sabdbox.dagger.entity.Note
+import com.haliksar.sabdbox.dagger.notepad.entity.Note
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

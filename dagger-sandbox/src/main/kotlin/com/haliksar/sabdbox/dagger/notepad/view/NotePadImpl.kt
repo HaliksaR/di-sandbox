@@ -1,7 +1,7 @@
-package com.haliksar.sabdbox.dagger.view
+package com.haliksar.sabdbox.dagger.notepad.view
 
-import com.haliksar.sabdbox.dagger.AppDagger
-import com.haliksar.sabdbox.dagger.entity.Note
+import com.haliksar.sabdbox.dagger.notepad.AppDagger
+import com.haliksar.sabdbox.dagger.notepad.entity.Note
 import javax.inject.Inject
 
 
